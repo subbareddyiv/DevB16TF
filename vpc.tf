@@ -8,3 +8,9 @@ resource "aws_vpc" "default" {
     Deployedby = "Venkat"
     }
 }
+resource "aws_internet_gateway" "default" {
+    vpc_id = "${aws_vpc.default.id}"
+	tags = {
+        Name = "DevB16Git-IGW"
+    }
+}
