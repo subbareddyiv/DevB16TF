@@ -4,4 +4,4 @@ terraform {
 		key = "devopsb16gitclass.tfstate"
 		region = "us-east-1"
 		}
-	}
+}
