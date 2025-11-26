@@ -1,7 +1,7 @@
 terraform {
 		backend "s3" {
-		bucket = "sreeterraformbucket"
+		bucket = "venkat-s3-bucket-demo-2025"
 		key = "devopsb16gitclass.tfstate"
-		region = "us-east-1"
+		region = "eu-north-1"
 		}
-}
+	}
